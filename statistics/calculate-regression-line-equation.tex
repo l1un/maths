@@ -54,32 +54,32 @@
 \end{equation}%
 
 \paragraph{Result:}
-\begin{equation}r \approx 0.946\end{equation}
+\begin{equation}\padBox{r \approx 0.946}\end{equation}
 
 % SUBSECTION: Find the Regression Line: -
 \subsection{Find the Regression Line}
 \paragraph{Definition:}
 A regression line is simply a single line that best fits the data (in terms of having the smallest overall distance from the line to the points). Statisticians call this technique for finding the best-fitting line a \emph{simple linear regression analysis using the least squares method.}
 
-\paragraph{The formula for a regression line is denoted with a hat:}
+\paragraph{Least-squares regression line predicting $y$ from $x$, where $a$ is the $y-intercept$ and $b$ is the slope:}
 \begin{equation}
-	\mH{\hat{y} = a + bx}
+	\hat{y} = a + bx
 \end{equation}
 
-\paragraph{Find the slope using Correlation Coefficient and Deviations:}
+
+\paragraph{Find the slope:}
+	\begin{equation}
+		b = r\left(\frac{S_{y}}{S_{x}}\right) \Rightarrow
+		b = 0.946\left(\frac{2.16}{0.816}\right) \approx 2.5
+	\end{equation}
+
+\paragraph{Find the y-intercept:}
 \begin{equation}
-	\mH{b = r\left(\frac{S_{y}}{S_{x}}\right)}
-\end{equation}
-\begin{equation}
-	b = 0.946\left(\frac{2.160}{0.816}\right) \approx \padBox{2.50}
+	a = \bar{y} - b\bar{x} \Rightarrow a = 3 - 2.5(2) = -2
 \end{equation}
 
-\paragraph{Find the regression line:}
-\begin{equation}
-	\mH{a = \hat{y} -b\hat{x} }
-\end{equation}
+\paragraph{Solution:}
 \begin{equation}
 	\padBox{a = -2 - 2.5x}
 \end{equation}
-
 \end{document}

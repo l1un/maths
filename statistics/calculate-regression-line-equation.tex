@@ -63,28 +63,23 @@ A regression line is simply a single line that best fits the data (in terms of h
 
 \paragraph{The formula for a regression line is denoted with a hat:}
 \begin{equation}
-	\mH{\hat{y} = mx + b}
+	\mH{\hat{y} = a + bx}
 \end{equation}
 
 \paragraph{Find the slope using Correlation Coefficient and Deviations:}
 \begin{equation}
-	\mH{m = r\left(\frac{S_{y}}{S_{x}}\right)}
+	\mH{b = r\left(\frac{S_{y}}{S_{x}}\right)}
 \end{equation}
 \begin{equation}
-	m = 0.946\left(\frac{2.160}{0.816}\right) \approx \padBox{2.50}
-\end{equation}
-
-\paragraph{Find the y-intercept using m and the x, y values and means:}
-\begin{equation}
-	\mH{b = \bar{y} - m\bar{x}}
-\end{equation}
-\begin{equation}
-	b = 3 - 2.5\left(2\right) = \padBox{-2}
+	b = 0.946\left(\frac{2.160}{0.816}\right) \approx \padBox{2.50}
 \end{equation}
 
-\paragraph{So the explicit formula for the regression line is:}
+\paragraph{Find the regression line:}
 \begin{equation}
-	\mH{\hat{y} = 2.5(x) - 2}
+	\mH{a = \hat{y} -b\hat{x} }
+\end{equation}
+\begin{equation}
+	\padBox{a = -2 - 2.5x}
 \end{equation}
 
 \end{document}

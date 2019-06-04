@@ -8,6 +8,7 @@
 #### LaTex
 
   - `latexmk`
+  - `Texlive` - base + recommended
 
 #### PDF
 

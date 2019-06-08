@@ -1,0 +1,105 @@
+% PREAMBLE: -
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,mathtools,tikz,graphicx,amssymb,dirtytalk}
+\usetikzlibrary{trees}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+
+% padded box (answers)
+\newcommand{\paddedBox}[1]{{\setlength\fboxsep{5pt}\boxed{#1}}}
+
+% http://texample.net/tikz/examples/probability-tree/
+
+% Set the overall layout of the tree
+\tikzstyle{level 1}=[level distance=9cm, sibling distance=5.5cm]
+\tikzstyle{level 2}=[level distance=6cm, sibling distance=2cm]
+
+% Define styles for bags and leafs
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+
+\begin{document}
+% SECTION: Conditional Probability Tree Diagram and Questions: -
+\section*{Conditional Probability Tree Diagram and Questions}
+% SUBSECTION: Initial Setup: -
+\subsection{Initial Setup:}
+
+\paragraph{Description:}
+A hospital is testing patients for a certain disease. If a patient has the disease, the test is designed to return a \say{positive} result. If a patient does not have the disease, the test should return a \say{negative} result.
+
+\begin{itemize}
+  \item \textbf{99\%} of patients who have the disease test positive.
+  \item \textbf{5\%} of patients who don't have the disease also test positive.
+  \item \textbf{10\%} of the population in question has the disease.
+\end{itemize}
+
+% SUBSECTION: Probability Tree: -
+\subsection{Probability Tree:}
+
+% The sloped option gives rotated edge labels. Personally
+% I find sloped labels a bit difficult to read. Remove the sloped options
+% to get horizontal labels.
+\begin{tikzpicture}[grow=right, sloped]
+\node[bag] {Patients}
+  child {%
+    node[bag] {No Disease (ND)}
+      child {%
+        node[end, label=right:
+        {Negative Result (-)}] {}
+        edge from parent
+        node[below] {$0.95$}
+      }
+      child {%
+        node[end, label=right:
+        {Positive Result (+)}] {}
+        edge from parent
+        node[above] {$0.05$}
+      }
+    edge from parent
+    node[below] {$0.90$}
+  }
+  child {%
+    node[bag] {Have Disease (HD)}
+      child {%
+        node[end, label=right:
+        {Negative Result (-)}] {}
+        edge from parent
+        node[below] {$0.01$}
+      }
+      child {%
+        node[end, label=right:
+        {Positive Result (+)}] {}
+        edge from parent
+        node[above] {$0.99$}
+      }
+    edge from parent
+    node[above] {$0.10$}
+  };
+\end{tikzpicture}
+
+% SUBSECTION: Questions: -
+\subsection{Questions:}
+
+  % Question 1
+  \textbf{Find the probability that a randomly selected patient has the disease and $(\cap)$ tests positive:}
+  \begin{align}
+    P\left(HD \cap (+)\right) && = && 0.10 * 0.99 = 0.099 && \approx &&
+    \text{9.9\% probability}
+  \end{align}
+  % Question 2
+  \textbf{Find the probability that a random patient tests positive:}
+  \begin{align}
+    P\left((+)\right) && = && P\left(HD \cap (+)\right) + P\left(~ND \cap (+)~\right) &&
+    = && 0.099 + (0.90 * 0.05) = 0.144 && \approx &&
+    \text{14.4\% probability}
+  \end{align}
+  % Question 3
+  \textbf{Given $(\mid)$ a random patient tests positive, what is the probability that they have the disease:}
+  \begin{align}
+    P\left(HD\mid(+)\right) && = &&
+    \frac{P\left(HD \cap (+)\right)}{P\left((+)\right)} && = &&
+    \frac{0.099}{0.1444} && = && 0.6875 && \approx && \text{68.8\% probability}
+  \end{align}
+
+\end{document}

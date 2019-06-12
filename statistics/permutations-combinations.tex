@@ -1,0 +1,107 @@
+% 0. Preamble: -----------------------------------------------------{{{
+% 0.1 Document Class Setup: ----------------------------------------{{{
+
+\documentclass[12pt]{article}
+
+%}}}
+% 0.2 Packages + Libraries: ----------------------------------------{{{
+
+\usepackage{amsmath,amsfonts,mathtools,graphicx,amssymb,dirtytalk}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+\graphicspath{{./3-img/}}
+% using tikz, for Venn diagrams in this case
+\usepackage{tikz}
+% using tikz commands (must come after \usepackage{tikz})
+% http://users.ju.edu/hduong/math220/venn_diagrams.pdf
+\usetikzlibrary{shapes, backgrounds}
+
+%}}}
+% 0.3 Commands: ----------------------------------------------------{{{
+
+% binomial exponent
+\newcommand{\negativeBinomial}[3][2]{(#2- #3)^{#1}}%
+% large math
+\newcommand*{\largeMath}[1]{\mbox{\Large$#1$}}%
+% huge math
+\newcommand*{\hugeMath}[1]{\mbox{\huge$#1$}}%
+% Permutation
+\newcommand*{\Perm}[2]{{}^{#1}\!P_{#2}}%
+% Combination
+\newcommand*{\Comb}[2]{{}^{#1}C_{#2}}%
+
+%}}}
+%}}}
+\begin{document}
+% Section: Permutations and Combinations: --------------------------{{{
+\section*{Permutations and Combinations:}
+  % Subsection: Permutations: --------------------------------------{{{
+
+  \subsection{Permutations}
+  \paragraph{Description:} This is the template for a subsection.
+  \paragraph{Quote:} \say{Here is an example quote}
+  \paragraph{Intuition:} Or findings, explanations, etc.
+
+  \begin{align*}
+    X' = \{d, e, f,\ldots z\} && Y' \neq \{1, 2, 3\}
+  \end{align*}
+
+  %}}}
+  % Subsection: Combinations: --------------------------------------{{{
+
+  \subsection{Combinations}
+  \paragraph{Description:}
+Combinations are all or part of a set of objects. They are not dependent on order like permutations. Combinations can be calculated with or without repetition.
+
+  \paragraph{Question:}
+How many different 5-card hands can be made from a standard deck of 52 cards?
+
+  \paragraph{Permutations:}
+First, 52 cards could be drawn: \underline{52} \ldots, then 51 cards: \underline{52} \underline{51} \ldots, and so on: \underline{52} \underline{51} \underline{50} \underline{49} \underline{48}. Multiplying this factorial will return \textbf{ALL} the possible permutations and \textbf{DUPLICATE} results:
+
+  \begin{align}
+    52 * 51 * 50 * 49 * 48 && = &&
+    \text{Permutations} = 311,875,200 && \Rightarrow &&
+    \textbf{A, K, Q, J, 10 $\neq$ 10, J, Q, K, A}
+  \end{align}
+
+
+  \paragraph{How many ways to arrange five cards?}First, 5 cards could be drawn: \underline{5} \ldots, then 4 cards: \underline{5} \underline{4} \ldots, until 1 card: \underline{5} \underline{4} \underline{3} \underline{2} \underline{1}. Multiplying this factorial will return \textbf{ALL} the possible ways to arrange 5 cards.
+
+  \begin{align}
+    5 * 4 * 3 * 2 * 1 && = &&
+    \text{Permutations} = 120
+  \end{align}
+
+  \paragraph{How many unique 5-card hands?} Dividing all the possible ways to order 5 cards in a deck, by all the possible ways arrange 5 cards returns the result. \textbf{The number of permutations divided by the number of ways to arrange one hand.}
+
+  \begin{align}
+    \frac{\text{Possible ways to order 5 cards in a deck (permutations)}}
+    {\text{Possible ways to arrange 5 cards (combinations)}} && = &&
+    \frac{311,875,200}{120} && = && 2,598,960
+  \end{align}
+
+  \paragraph{Formulas:} Relating the above intuition to the formulas and notations. There are many ways to do this. Verbally saying things like: \say{n choose k} or \say{n factorial over k factorial, times n minus k factorial}. Also it can be written or denoted in a myriad of ways including:
+
+  \begin{align}
+    \frac{52 * 51 * 50 * 49 * 48}{5 * 4 * 3 * 2 * 1} && = &&
+    \frac{52!}{5!47!} && = && \frac{52!}{5!(52 - 5)!} && = &&
+    \frac{n!}{k!(n - k)!}
+  \end{align}
+
+  \textbf{Note:} In the above example the 47! is implicitly cancelled out.
+
+  \begin{align}
+    \binom nk && = C^{n}_{k} && = && _{n}C_{k} &&
+    = && \Comb{n}{k} && = && C\left(n, k\right) && = && \binom {52}{5}
+  \end{align}
+
+  \begin{align}
+    \binom {52}{5} && = C^{52}_{5} && = && _{52}C_{5} &&
+    = && \Comb{52}{5} && = && C\left(52, 5\right) && = && \binom nk
+  \end{align}
+
+  %}}}
+%}}}
+\end{document}
+

@@ -1,0 +1,77 @@
+% 0. Preamble: -----------------------------------------------------{{{
+% 0.1 Document Class Setup: ----------------------------------------{{{
+
+\documentclass[12pt]{article}
+
+%}}}
+% 0.2 Packages + Libraries: ----------------------------------------{{{
+
+\usepackage{amsmath,amsfonts,booktabs,mathtools,amssymb,dirtytalk}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+
+%}}}
+% 0.3 Commands: ----------------------------------------------------{{{
+
+% binomial exponent
+\newcommand{\negBi}[4][2]{(#2- #3)^{#1}*{#4}}
+% large math
+\newcommand*{\largeMath}[1]{\mbox{\Large$#1$}}
+% huge math
+\newcommand*{\hugeMath}[1]{\mbox{\huge$#1$}}
+
+%}}}
+%}}}
+\begin{document}
+% Section: Discrete Random Variables: Mean, Variance, SD -----------{{{
+\section*{Discrete Random Variables: Mean, SD ($\mu_{X}, \sigma_{X}$):}
+  % Subsection: Data Table -----------------------------------------{{{
+
+  \subsection*{Data Table:}
+  Let $X =$ some discrete random variable and $P(X) =$  the probability of $X$.
+
+  \begin{table}[h!]
+    \begin{center}
+     \begin{tabular}{cccc}
+       \toprule
+       \textbf{Let} & \textbf{Value} &
+       \textbf{P(X)} & \textbf{Probability} \\ % chktex 36
+       \midrule
+       $X_{1}$ = & 0 & 0.099 & 10\% \\
+       $X_{2}$ = & 1 & 0.333 & 30\% \\
+       $X_{3}$ = & 2 & 0.566 & 60\% \\
+       \bottomrule
+     \end{tabular}
+    \end{center}
+  \end{table}
+
+  %}}}
+  % Subsection: Mean -----------------------------------------------{{{
+
+  \subsection*{Mean:}
+  \begin{align*}
+    \hugeMath{\mu_{X}} && = &&
+    (X_{1} * P(X_{1})) + (X_{2} * P(X_{2})) + (X_{3} * P(X_{3})) \\
+    && = && (0 * 0.099) + (1 * 0.333) + (2 * 0.566) \\
+    && = &&  (0 + 0.333 + 1.132) \\
+    && = && \hugeMath{\mu_{X} = 1.465}
+  \end{align*}
+
+  %}}}
+  % Subsection: Standard Deviation ---------------------------------{{{
+
+  \subsection*{Standard Deviation:}
+  \begin{align*}
+    \hugeMath{\sigma_{X}} && = &&
+    (\negBi{X_{1}}{\mu_{X}}{P(X_{1})}) +
+    (\negBi{X_{2}}{\mu_{X}}{P(X_{2})}) +
+    (\negBi{X_{3}}{\mu_{X}}{P(X_{3})}) \\
+    && = && (\negBi{0}{1.456}{0.099}) +
+    (\negBi{1}{1.456}{0.333}) + (\negBi{2}{1.456}{0.566}) \\
+    && = &&  (0 + 0.279 + 0.167) = 0.467 \textbf{\ (variance = 0.467)}\\
+    && = && \sqrt{0.467} \\ && = && \hugeMath{\sigma_{X} = 0.683}
+  \end{align*}
+
+  %}}}
+%}}}
+\end{document}

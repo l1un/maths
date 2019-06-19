@@ -4,8 +4,8 @@ Random Variables
 Combining Random Variables
 --------------------------
 
-+ Example: Analyzing the Difference in Distributions: [Link](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/v/analyzing-the-difference-in-distributions)
++ [Example: Analyzing the Difference in Distributions](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/v/analyzing-the-difference-in-distributions "Khan Academy: Analyzing the Difference in Distributions")
 
-+ Step by Step: Combining Normal Random Variables:  [Link](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-normal-random-variables)
++ [Stepped: Combining Normal Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/a/combining-normal-random-variables "Khan Academy: Combining Normal Random Variables")
 
-+ Practice: Combine Normal Random Variables: [Link](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/e/combine-normal-random-variables)
++ [Practice: Combine Normal Random Variables](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/combine-random-variables/e/combine-normal-random-variables "Khan Academy: Practice: Combine Normal Random variables")

@@ -1,9 +1,8 @@
 ## Setup
 
-#### Vim
+#### Gnuplot
 
-  - `vimTeX`
-  - `ultisnips`
+  - misc.
 
 #### LaTex
 
@@ -14,12 +13,17 @@
 
   - `zathura`
 
-#### Unix
-
-  - `xdotool`
-
 #### Python
 
   - `matplotlib`
   - `numpy`
   - `pandas`
+
+#### Unix
+
+  - `xdotool`
+
+#### Vim
+
+  - `vimTeX`
+  - `ultisnips`

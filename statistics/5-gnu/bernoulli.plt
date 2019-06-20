@@ -22,8 +22,8 @@ set ydata
 set xdata
 set y2data
 set x2data
-set boxwidth
-set style fill  empty border
+set boxwidth 2
+set style fill   solid 1.00 border
 set style rectangle back fc  bgnd fillstyle   solid 1.00 border lt -1
 set style circle radius graph 0.02
 set style ellipse size graph 0.05, 0.03 angle 0 units xy
@@ -48,7 +48,7 @@ set key fixed right top vertical Right noreverse enhanced autotitle nobox
 set key noinvert samplen 4 spacing 1 width 0 height 0
 set key maxcolumns 0 maxrows 0
 set key noopaque
-unset key
+set key
 unset label
 unset arrow
 set style increment default
@@ -83,7 +83,7 @@ set cntrparam levels auto 5
 set cntrparam points 5
 set size ratio 0 1,1
 set origin 0,0
-set style data points
+set style data histograms
 set style function lines
 unset xzeroaxis
 unset yzeroaxis
@@ -100,8 +100,9 @@ set my2tics default
 set mcbtics default
 set mrtics default
 set nomttics
-set xtics border in scale 1,0.5 mirror norotate  autojustify
-set xtics  norangelimit autofreq
+set xtics border out scale 1,0.5 mirror norotate  autojustify
+set xtics  norangelimit
+set xtics   ()
 set ytics border in scale 1,0.5 mirror norotate  autojustify
 set ytics  norangelimit autofreq
 set ztics border in scale 1,0.5 nomirror norotate  autojustify
@@ -113,7 +114,7 @@ set cbtics  norangelimit autofreq
 set rtics axis in scale 1,0.5 nomirror norotate  autojustify
 set rtics  norangelimit autofreq
 unset ttics
-set title ""
+set title "40% Unfavorable - 60% Favorable"
 set title  font "" norotate
 set timestamp bottom
 set timestamp ""
@@ -125,14 +126,14 @@ set xlabel ""
 set xlabel  font "" textcolor lt -1 norotate
 set x2label ""
 set x2label  font "" textcolor lt -1 norotate
-set xrange [ 0.00000 : 10.0000 ] noreverse nowriteback
-set x2range [ 0.00000 : 10.0000 ] noreverse nowriteback
+set xrange [ * : * ] noreverse nowriteback
+set x2range [ * : * ] noreverse nowriteback
 set ylabel ""
 set ylabel  font "" textcolor lt -1 rotate
 set y2label ""
 set y2label  font "" textcolor lt -1 rotate
-set yrange [ 0.500000 : 1.50000 ] noreverse nowriteback
-set y2range [ 0.506219 : 1.49045 ] noreverse nowriteback
+set yrange [ 0.00000 : 1.00000 ] noreverse nowriteback
+set y2range [ * : * ] noreverse nowriteback
 set zlabel ""
 set zlabel  font "" textcolor lt -1 norotate
 set zrange [ * : * ] noreverse nowriteback
@@ -164,6 +165,6 @@ set fontpath
 set psdir
 set fit brief errorvariables nocovariancevariables errorscaling prescale nowrap v5
 GNUTERM = "qt"
-## Last datafile plotted: "stats2.dat"
-plot 'stats2.dat' with lines
+## Last datafile plotted: "data.dat"
+plot for [COL=2:2] 'data.dat' using COL:xticlabels(1) title columnheader
 #    EOF

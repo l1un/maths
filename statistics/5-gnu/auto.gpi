@@ -1,0 +1,6 @@
+# Replot every n seconds...
+while (n) {
+  n=9
+  pause n
+  replot
+}

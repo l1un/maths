@@ -1,0 +1,68 @@
+% 0. Preamble: -----------------------------------------------------{{{
+% 0.1 Document Class Setup: ----------------------------------------{{{
+
+\documentclass[12pt]{article}
+
+%}}}
+% 0.2 Packages + Libraries: ----------------------------------------{{{
+
+\usepackage{amsfonts, array, amsmath, amssymb, bm, caption, booktabs, mathtools}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+
+%}}}
+% 0.3 Commands: ----------------------------------------------------{{{
+
+% binomial exponents
+\newcommand{\negBi}[3][2]{{(#2- #3)}^{#1}}
+\newcommand{\negBiBold}[3][2]{\bm{{(#2- #3)}^{#1}} }
+
+%}}}
+%}}}
+\begin{document}
+% Section: Geometric Random Variables ------------------------------{{{
+\section*{Geometric Random Variables:}
+
+  % Subsection: Binomial VS. Geometric Random Variables ------------{{{
+  \subsection*{Binomial vs Geometric Random Variables:}
+\begin{enumerate}
+  \item Squaring makes each term positive so the sum will not be zero.
+  \begin{table}[h!]
+  \begin{center}
+  \begin{tabular}{cc}
+    \begin{tabular}{ccccccc}
+      \toprule
+      $\bm{x_{i}}$ & \ & \textbf{value} & $\negBiBold{x_{i}}{\mu}$ &
+      \ & \textbf{result} & \textbf{total} \\
+      \midrule
+      $x_{1}$ & $=$ & $1$ & $\negBi{1}{3}$ & $=$ & $4$ & \ \\
+      $x_{2}$ & $=$ & $2$ & $\negBi{2}{3}$ & $=$ & $1$ & \ \\
+      $x_{3}$ & $=$ & $3$ & $\negBi{3}{3}$ & $=$ & $0$ & \ \\
+      $x_{4}$ & $=$ & $4$ & $\negBi{4}{3}$ & $=$ & $1$ & \ \\
+      $x_{5}$ & $=$ & $5$ & $\negBi{5}{3}$ & $=$ & $4$ & $\bm{10}$ \\
+      \bottomrule
+    \end{tabular} Vs. &
+    \begin{tabular}{ccccccc}
+      \toprule
+      $\bm{x_{i}}$ & \ & \textbf{value} & $\bm{x_{i} - \mu}$ &
+      \ & \textbf{result} & \textbf{total}\\
+      \midrule
+      $x_{1}$ & $=$ & $1$ & $1 - 3$ & $=$ & $-2$ & \ \\
+      $x_{2}$ & $=$ & $2$ & $2 - 3$ & $=$ & $-1$ & \ \\
+      $x_{3}$ & $=$ & $3$ & $3 - 3$ & $=$ & $0$ & \ \\
+      $x_{4}$ & $=$ & $4$ & $4 - 3$ & $=$ & $1$ & \ \\
+      $x_{5}$ & $=$ & $5$ & $5 - 3$ & $=$ & $2$ & $\bm{0}$ \\
+      \bottomrule
+    \end{tabular}
+  \end{tabular}
+  \captionof{table}{Comparison of Results}\label{ComparisonTable}
+  \end{center}
+  \end{table}
+  \item Squaring emphasizes larger differences. Which could be good or bad depending on things like outliers. Also when converting standard deviation taking the square root of what was squared converts back to the original unit.
+
+    TODO:\ add more
+\end{enumerate}
+
+  %}}}
+%}}}
+\end{document}

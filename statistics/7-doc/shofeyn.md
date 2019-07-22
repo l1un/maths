@@ -16,3 +16,10 @@ Binomial Mean and Standard Deviation Formulas
 - [Bernoulli Distribution Mean and Variance Formulas](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/binomial-mean-standard-dev-formulas/v/bernoulli-distribution-mean-and-variance-formulas "Khan Academy: Bernoulli Distribution Mean and Variance Formulas")
 
 - [Finding the Mean and Standard Deviation of a Binomial Random Variable](https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/binomial-mean-standard-dev-formulas/v/finding-the-mean-and-standard-deviation-of-a-binomial-random-variable "Khan Academy: Finding the Mean and Standard Deviation of a Binomial Random Variable")
+
+Sampling Distributions
+======================
+
+- [Probability of Sample Proportions Example](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/sample-proportions/v/probability-of-sample-proportions-example)
+
+- [Sampling Distribution of a Sample Proportion example](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/sample-proportions/a/sampling-distribution-sample-proportion-example?modal=1)

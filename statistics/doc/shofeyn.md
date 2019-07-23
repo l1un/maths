@@ -23,3 +23,5 @@ Sampling Distributions
 - [Probability of Sample Proportions Example](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/sample-proportions/v/probability-of-sample-proportions-example)
 
 - [Sampling Distribution of a Sample Proportion example](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/sample-proportions/a/sampling-distribution-sample-proportion-example?modal=1)
+
+- [Standard Error of the Mean](https://www.khanacademy.org/math/statistics-probability/sampling-distributions-library/sample-means/v/standard-error-of-the-mean)

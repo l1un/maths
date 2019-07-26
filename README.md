@@ -31,37 +31,6 @@
 #### Zathura
 
   - misc.
-###### Gnuplot
-
-  - misc.
-
-#### LaTex
-
-  - `latexmk`
-  - `Texlive` - base + recommended
-
-#### PDF
-
-  - `zathura`
-
-#### Python
-
-  - `matplotlib`
-  - `numpy`
-  - `pandas`
-
-#### Unix
-
-  - `xdotool`
-
-#### Vim
-
-  - `vimTeX`
-  - `ultisnips`
-
-#### Zathura
-
-  - misc.
 
 ###### tree
 ```
@@ -128,7 +97,7 @@
         └── variance-standard-deviation.tex
 
 12 directories, 48 files
-last generated: Tue Jul 23 07:33:11 PDT 2019
+last generated: Fri Jul 26 10:47:33 PDT 2019
 ```
 ###### packages
 ```
@@ -138,12 +107,11 @@ devDependencies
 dependencies
 
 
-auto-generated: Tue Jul 23 07:33:11 PDT 2019
+auto-generated: Fri Jul 26 10:47:33 PDT 2019
 ```
 ###### notes
 
   - notes here
 
 ###### [changelog](CHANGELOG.md)
-
 

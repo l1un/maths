@@ -64,7 +64,6 @@
     │   ├── standard-deviation-of-residuals.png
     │   └── stats2.pdf.png
     ├── pdf
-    │   ├── 1-tex
     │   ├── calculate-z-confidence-interval.pdf
     │   ├── correlation-coefficient.pdf
     │   ├── discrete-random-variable-mean-variance-standard-deviation.pdf

@@ -44,7 +44,6 @@
 ├── requirements.txt
 └── statistics
     ├── build
-    │   └── tex
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
@@ -102,8 +101,8 @@
         ├── tree-diagrams-conditional-probabilty.tex
         └── variance-standard-deviation.tex
 
-15 directories, 51 files
-last generated: Sat Jul 27 09:00:23 PDT 2019
+14 directories, 51 files
+last generated: Sat Jul 27 09:02:36 PDT 2019
 ```
 ###### packages
 ```
@@ -113,7 +112,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Jul 27 09:00:23 PDT 2019
+auto-generated: Sat Jul 27 09:02:36 PDT 2019
 ```
 ###### notes
 

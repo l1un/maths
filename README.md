@@ -44,12 +44,11 @@
 ├── requirements.txt
 └── statistics
     ├── build
-    │   └── geometric-random-variables-intro.pdf
+    │   └── tex
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
     │   └── StatEtymologyA.doc
-    ├── geometric-random-variables-intro.tex
     ├── gnu
     │   ├── confidence-interval-example
     │   │   ├── ci.dat
@@ -67,6 +66,7 @@
     │   └── stats2.pdf.png
     ├── pdf
     │   ├── 1-tex
+    │   ├── calculate-z-confidence-interval.pdf
     │   ├── correlation-coefficient.pdf
     │   ├── discrete-random-variable-mean-variance-standard-deviation.pdf
     │   ├── geometric-random-variables-intro.pdf
@@ -88,8 +88,10 @@
     │   ├── mydat.dat
     │   └── stats2.dat
     └── tex
+        ├── calculate-z-confidence-interval.tex
         ├── correlation-coefficient.tex
         ├── discrete-random-variable-mean-variance-standard-deviation.tex
+        ├── geometric-random-variables-intro.tex
         ├── intuition-variance-vs-standard-deviation.tex
         ├── least-squares-regression-equation.tex
         ├── normal-distribution-intuition.tex
@@ -100,8 +102,8 @@
         ├── tree-diagrams-conditional-probabilty.tex
         └── variance-standard-deviation.tex
 
-14 directories, 50 files
-last generated: Sat Jul 27 06:04:06 PDT 2019
+15 directories, 51 files
+last generated: Sat Jul 27 09:00:23 PDT 2019
 ```
 ###### packages
 ```
@@ -111,7 +113,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Jul 27 06:04:06 PDT 2019
+auto-generated: Sat Jul 27 09:00:23 PDT 2019
 ```
 ###### notes
 

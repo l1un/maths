@@ -1,4 +1,8 @@
 ###### changelog
+`2019.07.27.2`
+  - add changes
+
+
 `2019.07.27.1`
   - created confidence interval example in gnuplot
   - clean-up and remove "build" from git ignore (gnuplot conflict)

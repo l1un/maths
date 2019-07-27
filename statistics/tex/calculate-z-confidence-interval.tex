@@ -1,0 +1,51 @@
+% 0. Preamble: -----------------------------------------------------{{{
+% 0.1 Document Class Setup: ----------------------------------------{{{
+
+\documentclass[12pt]{article}
+
+%}}}
+% 0.2 Packages + Libraries: ----------------------------------------{{{
+
+\usepackage{amsfonts, array, amsmath, amssymb, bm, caption, booktabs, mathtools}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+
+%}}}
+% 0.3 Commands: ----------------------------------------------------{{{
+
+% binomial exponents
+\newcommand{\negBi}[3][2]{{(#2- #3)}^{#1}}
+\newcommand{\negBiBold}[3][2]{\bm{{(#2- #3)}^{#1}} }
+
+%}}}
+%}}}
+\begin{document}
+% Section: Calculate Confidence (z) Interval for a Proportion ------{{{
+\section*{Calculate Confidence (z) Interval for a Proportion:}
+
+% Subsection: Conditions for Using the Formula -{{{
+\subsection*{Conditions for using the Formula:}
+\begin{enumerate}
+  \item Random: The data must be a random sample from the population.
+  \item Normal: There must be at least 10 successes and failures.
+  \item Independent: Sample is less than 10\% of population, or replaced.
+\end{enumerate}
+%}}}
+% Subsection: Formula for one-sample z interval for a proportion ---{{{
+\subsection*{Formula for a one-sample z interval for a proportion:}
+  \begin{equation*}
+    \text{(statistic)}\pm\text{(critical value)} *
+    \text{(standard deviation of statistic)}
+  \end{equation*}
+
+  \begin{equation}
+    \hat{p} \pm z^{*}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+  \end{equation}
+%}}}
+% Subsection: Finding the z-score from a table ---------------------{{{
+\subsection*{Finding the z-score from a table:}
+If the desired confidence was 99\% then looking at a z-table we lookup 0.005 in the table and use the corresponding row and column header. For 99\% it is approximately -1.645.
+
+%}}}
+%}}}
+\end{document}

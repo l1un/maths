@@ -1,4 +1,9 @@
 ###### changelog
+`2019.07.27.3`
+  - add confidence interval tex + pdf
+  - remove unused directory
+
+
 `2019.07.27.2`
   - add changes
 

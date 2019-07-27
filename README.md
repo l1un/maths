@@ -51,16 +51,20 @@
     │   └── StatEtymologyA.doc
     ├── geometric-random-variables-intro.tex
     ├── gnu
-    │   ├── auto.gpi
-    │   ├── bernoulli.plt
-    │   └── data.dat
+    │   ├── confidence-interval-example
+    │   │   ├── ci.dat
+    │   │   ├── ci.gp
+    │   │   └── ci.png
+    │   └── misc
+    │       ├── auto.gpi
+    │       ├── bernoulli.plt
+    │       └── data.dat
     ├── img
     │   ├── correlation-coefficient-result.png
     │   ├── correlation-coefficient-sample.png
     │   ├── gnuplot-sample.png
     │   ├── standard-deviation-of-residuals.png
     │   └── stats2.pdf.png
-    ├── intuition-variance-vs-standard-deviation.tex
     ├── pdf
     │   ├── 1-tex
     │   ├── correlation-coefficient.pdf
@@ -76,8 +80,6 @@
     │   ├── template.pdf
     │   ├── tree-diagrams-conditional-probabilty.pdf
     │   └── variance-standard-deviation.pdf
-    ├── permutations-combinations.tex
-    ├── poisson-distribution.tex
     ├── pyp
     │   ├── correlation_coefficient.py
     │   └── standard_deviation_of_residuals.py
@@ -85,19 +87,21 @@
     │   ├── 4col.csv
     │   ├── mydat.dat
     │   └── stats2.dat
-    ├── set-notation-operations.tex
-    ├── standard-deviation-of-a-discrete-random-variable.tex
     └── tex
         ├── correlation-coefficient.tex
         ├── discrete-random-variable-mean-variance-standard-deviation.tex
+        ├── intuition-variance-vs-standard-deviation.tex
         ├── least-squares-regression-equation.tex
         ├── normal-distribution-intuition.tex
+        ├── permutations-combinations.tex
+        ├── set-notation-operations.tex
+        ├── standard-deviation-of-a-discrete-random-variable.tex
         ├── standard-deviation-residuals.tex
         ├── tree-diagrams-conditional-probabilty.tex
         └── variance-standard-deviation.tex
 
-12 directories, 48 files
-last generated: Fri Jul 26 10:47:33 PDT 2019
+14 directories, 50 files
+last generated: Sat Jul 27 06:04:06 PDT 2019
 ```
 ###### packages
 ```
@@ -107,7 +111,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Fri Jul 26 10:47:33 PDT 2019
+auto-generated: Sat Jul 27 06:04:06 PDT 2019
 ```
 ###### notes
 

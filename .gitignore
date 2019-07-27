@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/ - FIXME: gnuplot conflict
 develop-eggs/
 dist/
 downloads/

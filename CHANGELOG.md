@@ -1,4 +1,9 @@
 ###### changelog
+`2019.07.27.1`
+  - created confidence interval example in gnuplot
+  - clean-up and remove "build" from git ignore (gnuplot conflict)
+
+
 `2019.07.26.1`
   - added confidence intervals to `statistics/doc/shofeyn.md`
   - removed duplicate content from `README.md`

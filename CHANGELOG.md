@@ -1,4 +1,8 @@
 ###### changelog
+`2019.07.30.1`
+  - add `statistics/doc/t-table.pdf`
+
+
 `2019.07.27.3`
   - add confidence interval tex + pdf
   - remove unused directory

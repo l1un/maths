@@ -47,7 +47,8 @@
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
-    │   └── StatEtymologyA.doc
+    │   ├── StatEtymologyA.doc
+    │   └── t-table.pdf
     ├── gnu
     │   ├── confidence-interval-example
     │   │   ├── ci.dat
@@ -100,8 +101,8 @@
         ├── tree-diagrams-conditional-probabilty.tex
         └── variance-standard-deviation.tex
 
-14 directories, 51 files
-last generated: Sat Jul 27 09:02:36 PDT 2019
+13 directories, 52 files
+last generated: Tue Jul 30 05:50:43 PDT 2019
 ```
 ###### packages
 ```
@@ -111,7 +112,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Jul 27 09:02:36 PDT 2019
+auto-generated: Tue Jul 30 05:50:43 PDT 2019
 ```
 ###### notes
 

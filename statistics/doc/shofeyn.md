@@ -38,3 +38,5 @@ Hypothesis Testing - Significance Test
 ======================================
 
 - [P-Values and Significance Tests](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/idea-of-significance-tests/v/p-values-and-significance-tests)
+
+- [Using P-values to Make Conclusions](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/idea-of-significance-tests/a/p-value-conclusions)

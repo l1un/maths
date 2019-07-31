@@ -1,4 +1,8 @@
 ###### changelog
+`2019.07.31.1`
+  - add hypothesis testing section and p-values link to `shofeyn.md`
+
+
 `2019.07.30.1`
   - add `statistics/doc/t-table.pdf`
 

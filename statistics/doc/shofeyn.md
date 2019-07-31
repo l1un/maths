@@ -33,3 +33,8 @@ Confidence Intervals
 ======================
 
 - [Confidence Interval Example](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample/estimating-population-proportion/v/confidence-interval-example)
+
+Hypothesis Testing - Significance Test
+======================================
+
+- [P-Values and Significance Tests](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/idea-of-significance-tests/v/p-values-and-significance-tests)

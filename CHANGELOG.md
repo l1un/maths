@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.03.1`
+  - create named directories for sections and organize accordingly
+
+
 `2019.07.31.1`
   - add hypothesis testing section and p-values link to `shofeyn.md`
 

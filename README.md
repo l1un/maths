@@ -47,6 +47,7 @@
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
+    │   ├── .shofeyn.md.swp
     │   ├── StatEtymologyA.doc
     │   └── t-table.pdf
     ├── gnu
@@ -65,20 +66,27 @@
     │   ├── standard-deviation-of-residuals.png
     │   └── stats2.pdf.png
     ├── pdf
-    │   ├── calculate-z-confidence-interval.pdf
-    │   ├── correlation-coefficient.pdf
-    │   ├── discrete-random-variable-mean-variance-standard-deviation.pdf
-    │   ├── geometric-random-variables-intro.pdf
-    │   ├── intuition-variance-vs-standard-deviation.pdf
-    │   ├── least-squares-regression-equation.pdf
-    │   ├── normal-distribution-intuition.pdf
-    │   ├── permutations-combinations.pdf
-    │   ├── set-notation-operations.pdf
-    │   ├── standard-deviation-of-a-discrete-random-variable.pdf
-    │   ├── standard-deviation-residuals.pdf
-    │   ├── template.pdf
-    │   ├── tree-diagrams-conditional-probabilty.pdf
-    │   └── variance-standard-deviation.pdf
+    │   ├── confidence-intervals
+    │   │   └── calculate-z-confidence-interval.pdf
+    │   ├── counting-permutations-combinations
+    │   │   └── permutations-combinations.pdf
+    │   ├── exploring-bivariate-numerical-data
+    │   │   ├── correlation-coefficient.pdf
+    │   │   ├── least-squares-regression-equation.pdf
+    │   │   └── standard-deviation-residuals.pdf
+    │   ├── modeling-data-distributions
+    │   │   └── normal-distribution-intuition.pdf
+    │   ├── probability
+    │   │   ├── set-notation-operations.pdf
+    │   │   └── tree-diagrams-conditional-probabilty.pdf
+    │   ├── random-variables
+    │   │   ├── discrete-random-variable-mean-variance-standard-deviation.pdf
+    │   │   ├── geometric-random-variables-intro.pdf
+    │   │   └── standard-deviation-of-a-discrete-random-variable.pdf
+    │   ├── significance-tests-hypothesis-testing
+    │   └── summarizing-quantitative-data
+    │       ├── intuition-variance-vs-standard-deviation.pdf
+    │       └── variance-standard-deviation.pdf
     ├── pyp
     │   ├── correlation_coefficient.py
     │   └── standard_deviation_of_residuals.py
@@ -86,23 +94,32 @@
     │   ├── 4col.csv
     │   ├── mydat.dat
     │   └── stats2.dat
-    └── tex
-        ├── calculate-z-confidence-interval.tex
-        ├── correlation-coefficient.tex
-        ├── discrete-random-variable-mean-variance-standard-deviation.tex
-        ├── geometric-random-variables-intro.tex
-        ├── intuition-variance-vs-standard-deviation.tex
-        ├── least-squares-regression-equation.tex
-        ├── normal-distribution-intuition.tex
-        ├── permutations-combinations.tex
-        ├── set-notation-operations.tex
-        ├── standard-deviation-of-a-discrete-random-variable.tex
-        ├── standard-deviation-residuals.tex
-        ├── tree-diagrams-conditional-probabilty.tex
-        └── variance-standard-deviation.tex
+    ├── tex
+    │   ├── confidence-intervals
+    │   │   └── calculate-z-confidence-interval.tex
+    │   ├── counting-permutations-combinations
+    │   │   └── permutations-combinations.tex
+    │   ├── exploring-bivriate-numerical-data
+    │   │   ├── correlation-coefficient.tex
+    │   │   ├── least-squares-regression-equation.tex
+    │   │   └── standard-deviation-residuals.tex
+    │   ├── modeling-data-distributions
+    │   │   └── normal-distribution-intuition.tex
+    │   ├── probability
+    │   │   ├── set-notation-operations.tex
+    │   │   └── tree-diagrams-conditional-probabilty.tex
+    │   ├── random-variables
+    │   │   ├── discrete-random-variable-mean-variance-standard-deviation.tex
+    │   │   ├── geometric-random-variables-intro.tex
+    │   │   └── standard-deviation-of-a-discrete-random-variable.tex
+    │   ├── significance-tests-hypothesis-testing
+    │   └── summarizing-quantitative-data
+    │       ├── intuition-variance-vs-standard-deviation.tex
+    │       └── variance-standard-deviation.tex
+    └── type-1-type-2-errors.tex
 
-13 directories, 52 files
-last generated: Wed Jul 31 06:27:50 PDT 2019
+29 directories, 53 files
+last generated: Sat Aug  3 10:20:06 PDT 2019
 ```
 ###### packages
 ```
@@ -112,7 +129,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Wed Jul 31 06:27:50 PDT 2019
+auto-generated: Sat Aug  3 10:20:06 PDT 2019
 ```
 ###### notes
 

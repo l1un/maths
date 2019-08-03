@@ -34,11 +34,17 @@ Confidence Intervals
 
 - [Confidence Interval Example](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample/estimating-population-proportion/v/confidence-interval-example)
 
-Hypothesis Testing - Significance Test
+Hypothesis Testing / Significance Test
 ======================================
 
 - [P-Values and Significance Tests](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/idea-of-significance-tests/v/p-values-and-significance-tests)
 
 - [Using P-values to Make Conclusions](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/idea-of-significance-tests/a/p-value-conclusions)
 
+Error Probabilities and Power
+-----------------------------
 - [Intro to Type 1 and Type 2 Errors](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/error-probabilities-and-power/v/introduction-to-type-i-and-type-ii-errors)
+
+- [Intro to Power in Significance Tests](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/error-probabilities-and-power/v/introduction-to-power-in-significance-tests)
+
+- [Consequences of Errors and Significance](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/error-probabilities-and-power/a/consequences-errors-significance)

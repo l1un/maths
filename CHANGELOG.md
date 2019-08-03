@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.03.2`
+  - add intro to type 1 and type 2 errors tex and pdf
+
+
 `2019.08.03.1`
   - create named directories for sections and organize accordingly
 

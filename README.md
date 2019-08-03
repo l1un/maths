@@ -47,7 +47,6 @@
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
-    │   ├── .shofeyn.md.swp
     │   ├── StatEtymologyA.doc
     │   └── t-table.pdf
     ├── gnu
@@ -84,6 +83,7 @@
     │   │   ├── geometric-random-variables-intro.pdf
     │   │   └── standard-deviation-of-a-discrete-random-variable.pdf
     │   ├── significance-tests-hypothesis-testing
+    │   │   └── introduction-to-type-1-and-type-2-errors.pdf
     │   └── summarizing-quantitative-data
     │       ├── intuition-variance-vs-standard-deviation.pdf
     │       └── variance-standard-deviation.pdf
@@ -94,32 +94,32 @@
     │   ├── 4col.csv
     │   ├── mydat.dat
     │   └── stats2.dat
-    ├── tex
-    │   ├── confidence-intervals
-    │   │   └── calculate-z-confidence-interval.tex
-    │   ├── counting-permutations-combinations
-    │   │   └── permutations-combinations.tex
-    │   ├── exploring-bivriate-numerical-data
-    │   │   ├── correlation-coefficient.tex
-    │   │   ├── least-squares-regression-equation.tex
-    │   │   └── standard-deviation-residuals.tex
-    │   ├── modeling-data-distributions
-    │   │   └── normal-distribution-intuition.tex
-    │   ├── probability
-    │   │   ├── set-notation-operations.tex
-    │   │   └── tree-diagrams-conditional-probabilty.tex
-    │   ├── random-variables
-    │   │   ├── discrete-random-variable-mean-variance-standard-deviation.tex
-    │   │   ├── geometric-random-variables-intro.tex
-    │   │   └── standard-deviation-of-a-discrete-random-variable.tex
-    │   ├── significance-tests-hypothesis-testing
-    │   └── summarizing-quantitative-data
-    │       ├── intuition-variance-vs-standard-deviation.tex
-    │       └── variance-standard-deviation.tex
-    └── type-1-type-2-errors.tex
+    └── tex
+        ├── confidence-intervals
+        │   └── calculate-z-confidence-interval.tex
+        ├── counting-permutations-combinations
+        │   └── permutations-combinations.tex
+        ├── exploring-bivriate-numerical-data
+        │   ├── correlation-coefficient.tex
+        │   ├── least-squares-regression-equation.tex
+        │   └── standard-deviation-residuals.tex
+        ├── modeling-data-distributions
+        │   └── normal-distribution-intuition.tex
+        ├── probability
+        │   ├── set-notation-operations.tex
+        │   └── tree-diagrams-conditional-probabilty.tex
+        ├── random-variables
+        │   ├── discrete-random-variable-mean-variance-standard-deviation.tex
+        │   ├── geometric-random-variables-intro.tex
+        │   └── standard-deviation-of-a-discrete-random-variable.tex
+        ├── significance-tests-hypothesis-testing
+        │   └── introduction-to-type-1-and-type-2-errors.tex
+        └── summarizing-quantitative-data
+            ├── intuition-variance-vs-standard-deviation.tex
+            └── variance-standard-deviation.tex
 
 29 directories, 53 files
-last generated: Sat Aug  3 10:20:06 PDT 2019
+last generated: Sat Aug  3 13:00:31 PDT 2019
 ```
 ###### packages
 ```
@@ -129,7 +129,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Aug  3 10:20:06 PDT 2019
+auto-generated: Sat Aug  3 13:00:31 PDT 2019
 ```
 ###### notes
 

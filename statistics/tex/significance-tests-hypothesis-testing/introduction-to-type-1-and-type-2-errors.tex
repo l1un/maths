@@ -1,0 +1,87 @@
+% 0. Preamble: -----------------------------------------------------{{{
+% 0.1 Document Class Setup: ----------------------------------------{{{
+
+\documentclass[12pt]{article}
+
+%}}}
+% 0.2 Packages + Libraries: ----------------------------------------{{{
+
+\usepackage{amsfonts, array, amsmath, amssymb, bm, caption, booktabs, mathtools, tikz}
+\usepackage[margin=0.21in]{geometry}
+\usepackage[]{microtype}
+\usetikzlibrary{shapes.geometric,arrows,positioning,fit, calc}
+
+%}}}
+% 0.3 Commands: ----------------------------------------------------{{{
+
+% binomial exponents - 3 args, 1st arg 2
+\newcommand{\negBi}[3][2]{{(#2- #3)}^{#1}}
+\newcommand{\negBiBold}[3][2]{\bm{{(#2- #3)}^{#1}} }
+
+%}}}
+%}}}
+\begin{document}
+% Section: Introduction to Type I and Type II Errors ---------------{{{
+\section*{Introduction to Type I and Type II Errors:}
+% Subsection: Significance Test ------------------------------{{{
+\subsection*{Significance Test:}
+Define a null and alternative hypothesis for a population in question. Using a sample of the population, calculate a statistic that can estimate something about the population. (The parameter in question.)
+\begin{align}
+  H_{0}: \text{Null Hypothesis (status quo)} &&
+  H_{a}: \text{Alternative Hypothesis (something different)}
+\end{align}
+
+\begin{center}
+\begin{tikzpicture}
+  \draw [fill=white] (0,0) circle (3.0cm)
+      node (population) {};
+  \node (poplabel) [above = 1.75 of population]{Population};
+  \draw [dashed] (1.5,0.75) circle (0.9cm)
+      node (sample) {};
+  % Using tikzpicture positioning library
+    \node (samplabel) [above right = 2.75 of sample]{(Sample) statistic};
+  % Draw arrow
+  \draw[->, thick, to path={-- (\tikztotarget)}]
+    (samplabel) edge (sample);
+\end{tikzpicture}
+\end{center}
+%}}}
+% Subsection: p-value -------------------------------------{{{
+\subsection*{p-value}
+Using the statistic, find the probability of getting that statistic, given the null hypothesis is true.
+
+\begin{equation}
+  \text{p-value} = P(statistic \mid H_{0} \; \text{true})
+\end{equation}
+
+If the p-value is less than the significance level, then the null hypothesis is rejected:
+\begin{equation}
+  \text{p-value}< \alpha \rightarrow \text{reject}\; H_{0}
+\end{equation}
+
+If the p-value is greater than or equal to the significance level, then we fail to reject the null hypothesis:
+
+\begin{equation}
+  \text{p-value}\ge \alpha \rightarrow \text{reject}\; H_{0}
+\end{equation}
+%}}}
+% Subsection: Understanding the Type Errors ----------------------------{{{
+\subsection*{Understanding the Type Errors}
+\begin{itemize}
+  \item When the null hypothesis is true, if it is rejected, that is a type 1 error.
+  \item When the null hypothesis is false, if it is failed to be rejected that is a type 2 error.
+\end{itemize}
+\begin{table}[h!]
+\begin{center}
+  \begin{tabular}{l c c}
+    & \textbf{$\bm{H_{0}}$ true} & \textbf{$\bm{H_{0}}$ false}\\
+    \midrule \\
+    \textbf{Reject $\bm{H_{0}}$} & Type I Error & Correct \\ \\
+    \textbf{Fail to Reject $\bm{H_{0}}$} & Correct & Type II Error\\ \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+\end{table}
+%}}}
+%}}}
+\end{document}

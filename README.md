@@ -44,6 +44,15 @@
 ├── requirements.txt
 └── statistics
     ├── build
+    │   └── tex
+    │       ├── confidence-intervals
+    │       ├── counting-permutations-combinations
+    │       ├── exploring-bivriate-numerical-data
+    │       ├── modeling-data-distributions
+    │       ├── probability
+    │       ├── random-variables
+    │       ├── significance-tests-hypothesis-testing
+    │       └── summarizing-quantitative-data
     ├── doc
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
@@ -83,6 +92,7 @@
     │   │   ├── geometric-random-variables-intro.pdf
     │   │   └── standard-deviation-of-a-discrete-random-variable.pdf
     │   ├── significance-tests-hypothesis-testing
+    │   │   ├── conditions-for-z-test-about-proportion.pdf
     │   │   └── introduction-to-type-1-and-type-2-errors.pdf
     │   └── summarizing-quantitative-data
     │       ├── intuition-variance-vs-standard-deviation.pdf
@@ -113,13 +123,14 @@
         │   ├── geometric-random-variables-intro.tex
         │   └── standard-deviation-of-a-discrete-random-variable.tex
         ├── significance-tests-hypothesis-testing
+        │   ├── conditions-for-z-test-about-proportion.tex
         │   └── introduction-to-type-1-and-type-2-errors.tex
         └── summarizing-quantitative-data
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-29 directories, 53 files
-last generated: Sat Aug  3 13:00:31 PDT 2019
+38 directories, 55 files
+last generated: Sun Aug  4 07:31:02 PDT 2019
 ```
 ###### packages
 ```
@@ -129,7 +140,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Aug  3 13:00:31 PDT 2019
+auto-generated: Sun Aug  4 07:31:02 PDT 2019
 ```
 ###### notes
 

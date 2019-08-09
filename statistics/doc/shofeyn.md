@@ -54,3 +54,5 @@
 #### Inference for Categorical Data (Chi-Square Tests)
 
 - [ ] [Chi-Square Distribution Introduction](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-distribution-introduction)
+
+- [ ] [Chi-Square Statistic for Hypothesis Testing](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-statistic)

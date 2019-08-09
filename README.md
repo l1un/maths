@@ -54,6 +54,7 @@
     │       ├── significance-tests-hypothesis-testing
     │       └── summarizing-quantitative-data
     ├── doc
+    │   ├── MIT18_05S14_distributTable.pdf
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
     │   ├── StatEtymologyA.doc
@@ -82,6 +83,7 @@
     │   │   ├── correlation-coefficient.pdf
     │   │   ├── least-squares-regression-equation.pdf
     │   │   └── standard-deviation-residuals.pdf
+    │   ├── inference-for-categorical-data-chi-square-tests
     │   ├── modeling-data-distributions
     │   │   └── normal-distribution-intuition.pdf
     │   ├── probability
@@ -113,6 +115,7 @@
         │   ├── correlation-coefficient.tex
         │   ├── least-squares-regression-equation.tex
         │   └── standard-deviation-residuals.tex
+        ├── inference-for-categorical-data-chi-square-tests
         ├── modeling-data-distributions
         │   └── normal-distribution-intuition.tex
         ├── probability
@@ -129,8 +132,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-38 directories, 55 files
-last generated: Fri Aug  9 05:02:11 PDT 2019
+40 directories, 56 files
+last generated: Fri Aug  9 09:24:42 PDT 2019
 ```
 ###### packages
 ```
@@ -140,7 +143,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Fri Aug  9 05:02:11 PDT 2019
+auto-generated: Fri Aug  9 09:24:42 PDT 2019
 ```
 ###### notes
 

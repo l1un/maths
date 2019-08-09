@@ -49,3 +49,8 @@
 + Tests About a Population Mean
 
   - [ ] [When to Use z or t Statistics in Significance Tests](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/tests-about-population-mean/v/when-to-use-z-or-t-statistics-in-significance-tests)
+
+--------------------------------------------------------------------------
+#### Inference for Categorical Data (Chi-Square Tests)
+
+- [ ] [Chi-Square Distribution Introduction](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-distribution-introduction)

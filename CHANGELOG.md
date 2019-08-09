@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.09.1`
+  - add chi-square section and intro link to `shofeyn.md`
+
+
 `2019.08.04.1`
   - add conditions for a z-test about a proportion `tex` and `pdf`
 

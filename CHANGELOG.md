@@ -1,4 +1,10 @@
 ###### changelog
+`2019.08.09.2`
+  - add directories for inference / chi-square docs
+  - update `shofeyn.md`
+  - add multi-table doc (z-statistic, t-statistic, chi-square statistic)
+
+
 `2019.08.09.1`
   - add chi-square section and intro link to `shofeyn.md`
 

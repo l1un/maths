@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.10.1`
+  - add chi-square items to `shofeyn.md`
+
+
 `2019.08.09.2`
   - add directories for inference / chi-square docs
   - update `shofeyn.md`

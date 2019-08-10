@@ -53,6 +53,14 @@
 --------------------------------------------------------------------------
 #### Inference for Categorical Data (Chi-Square Tests)
 
-- [ ] [Chi-Square Distribution Introduction](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-distribution-introduction)
++ Chi-Square Goodness-Of-Fit Tests
 
-- [ ] [Chi-Square Statistic for Hypothesis Testing](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-statistic)
+  - [ ] [Chi-Square Distribution Introduction](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-distribution-introduction)
+
+  - [ ] [Chi-Square Statistic for Hypothesis Testing](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-goodness-of-fit-tests/v/chi-square-statistic)
+
++ Chi-Square Tests for Relationships
+
+  - [ ] [Introduction to the Chi-Square Test for Homogeneity](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-tests-for-homogeneity-and-association-independence/v/chi-square-test-homogeneity)
+
+  - [ ] [Chi-Square Test for Association (Independence)](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-tests-for-homogeneity-and-association-independence/v/chi-square-test-association-independence)

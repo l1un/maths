@@ -54,6 +54,8 @@
     │       ├── significance-tests-hypothesis-testing
     │       └── summarizing-quantitative-data
     ├── doc
+    │   ├── chisq-table.pdf
+    │   ├── FTable.pdf
     │   ├── MIT18_05S14_distributTable.pdf
     │   ├── normal-z-table.pdf
     │   ├── shofeyn.md
@@ -132,8 +134,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-40 directories, 56 files
-last generated: Sat Aug 10 10:05:12 PDT 2019
+40 directories, 58 files
+last generated: Wed Aug 14 06:39:16 PDT 2019
 ```
 ###### packages
 ```
@@ -143,7 +145,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sat Aug 10 10:05:12 PDT 2019
+auto-generated: Wed Aug 14 06:39:16 PDT 2019
 ```
 ###### notes
 

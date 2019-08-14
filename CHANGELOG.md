@@ -1,4 +1,9 @@
 ###### changelog
+`2019.08.14.1`
+  - add improved chi-table
+  - add f-table for ANOVA
+
+
 `2019.08.10.1`
   - add chi-square items to `shofeyn.md`
 

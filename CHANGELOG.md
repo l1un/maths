@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.14.2`
+  - rename statistics docs for easier reference
+
+
 `2019.08.14.1`
   - add improved chi-table
   - add f-table for ANOVA

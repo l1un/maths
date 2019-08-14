@@ -54,13 +54,13 @@
     │       ├── significance-tests-hypothesis-testing
     │       └── summarizing-quantitative-data
     ├── doc
-    │   ├── chisq-table.pdf
-    │   ├── FTable.pdf
-    │   ├── MIT18_05S14_distributTable.pdf
-    │   ├── normal-z-table.pdf
+    │   ├── chi-square-table.pdf
+    │   ├── combined-distribution-table.pdf
+    │   ├── f-table.pdf
     │   ├── shofeyn.md
-    │   ├── StatEtymologyA.doc
-    │   └── t-table.pdf
+    │   ├── statistics-etymology.doc
+    │   ├── t-table.pdf
+    │   └── z-table-normal.pdf
     ├── gnu
     │   ├── confidence-interval-example
     │   │   ├── ci.dat
@@ -135,7 +135,7 @@
             └── variance-standard-deviation.tex
 
 40 directories, 58 files
-last generated: Wed Aug 14 06:39:16 PDT 2019
+last generated: Wed Aug 14 06:52:36 PDT 2019
 ```
 ###### packages
 ```
@@ -145,7 +145,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Wed Aug 14 06:39:16 PDT 2019
+auto-generated: Wed Aug 14 06:52:36 PDT 2019
 ```
 ###### notes
 

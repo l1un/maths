@@ -1,4 +1,9 @@
 ###### changelog
+`2019.08.15.1`
+  - start creating "analyzing difference in distributions" note
+  - created plot / tikz initial normal distribution example
+
+
 `2019.08.14.2`
   - rename statistics docs for easier reference
 

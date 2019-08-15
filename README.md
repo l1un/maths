@@ -43,7 +43,14 @@
 ├── README.md
 ├── requirements.txt
 └── statistics
+    ├── analyzing-the-difference-in-distributions.tex
     ├── build
+    │   ├── analyzing-the-difference-in-distributions.aux
+    │   ├── analyzing-the-difference-in-distributions.fdb_latexmk
+    │   ├── analyzing-the-difference-in-distributions.fls
+    │   ├── analyzing-the-difference-in-distributions.log
+    │   ├── analyzing-the-difference-in-distributions.pdf
+    │   ├── analyzing-the-difference-in-distributions.synctex.gz
     │   └── tex
     │       ├── confidence-intervals
     │       ├── counting-permutations-combinations
@@ -134,8 +141,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-40 directories, 58 files
-last generated: Wed Aug 14 06:52:36 PDT 2019
+40 directories, 65 files
+last generated: Thu Aug 15 10:12:25 PDT 2019
 ```
 ###### packages
 ```
@@ -145,7 +152,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Wed Aug 14 06:52:36 PDT 2019
+auto-generated: Thu Aug 15 10:12:25 PDT 2019
 ```
 ###### notes
 

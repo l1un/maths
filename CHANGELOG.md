@@ -1,4 +1,8 @@
 ###### changelog
+`2019.08.20.1`
+  - fix TeX errors and update `set-notation-operations.{tex,pdf}`
+
+
 `2019.08.15.1`
   - start creating "analyzing difference in distributions" note
   - created plot / tikz initial normal distribution example

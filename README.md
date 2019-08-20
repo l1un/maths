@@ -45,21 +45,7 @@
 └── statistics
     ├── analyzing-the-difference-in-distributions.tex
     ├── build
-    │   ├── analyzing-the-difference-in-distributions.aux
-    │   ├── analyzing-the-difference-in-distributions.fdb_latexmk
-    │   ├── analyzing-the-difference-in-distributions.fls
-    │   ├── analyzing-the-difference-in-distributions.log
-    │   ├── analyzing-the-difference-in-distributions.pdf
-    │   ├── analyzing-the-difference-in-distributions.synctex.gz
-    │   └── tex
-    │       ├── confidence-intervals
-    │       ├── counting-permutations-combinations
-    │       ├── exploring-bivriate-numerical-data
-    │       ├── modeling-data-distributions
-    │       ├── probability
-    │       ├── random-variables
-    │       ├── significance-tests-hypothesis-testing
-    │       └── summarizing-quantitative-data
+    │   └── analyzing-the-difference-in-distributions.pdf
     ├── doc
     │   ├── chi-square-table.pdf
     │   ├── combined-distribution-table.pdf
@@ -141,8 +127,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-40 directories, 65 files
-last generated: Thu Aug 15 10:12:25 PDT 2019
+31 directories, 60 files
+last generated: Tue Aug 20 11:54:39 PDT 2019
 ```
 ###### packages
 ```
@@ -152,7 +138,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Thu Aug 15 10:12:25 PDT 2019
+auto-generated: Tue Aug 20 11:54:39 PDT 2019
 ```
 ###### notes
 

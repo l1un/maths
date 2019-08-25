@@ -1,4 +1,10 @@
 ###### changelog
+`2019.08.25.1`
+  - setup directories for calculus pdfs and tEx
+  - add calculus `shofeyn.md` template start
+  - create notes on properties of limits
+
+
 `2019.08.20.1`
   - fix TeX errors and update `set-notation-operations.{tex,pdf}`
 

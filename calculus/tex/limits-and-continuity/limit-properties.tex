@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage[margin=6mm]{geometry}
+\usepackage{amssymb, microtype, mathtools, booktabs}
+% \usepackage[fleqn]{mathtools}
+
+\begin{document}
+
+\paragraph{Description} The properties of limits are intuitive but important for simplifying problems.
+
+\paragraph{Setup}
+\begingroup \large
+\begin{align*}
+  \lim_{x \to c} f(x) = L && \lim_{x \to c} g(x) = M
+\end{align*}
+\endgroup
+
+\paragraph{Limit Properties}
+\begin{flalign*}
+  &\text{Sum Property:} && \lim_{x \to c} (f(x) + g(x)) &&
+  = && L + M && \\ \\ % trailing "&&" for left flush
+  &\text{Difference Property:} && \lim_{x \to c} (f(x) - g(x)) &&
+  = && L - M \\ \\
+  &\text{Product Property:} && \lim_{x \to c} (f(x) \times g(x)) &&
+  = && L \times M \\ \\
+  &\text{Constant Multiple Property:} && \lim_{x \to c} (k \times f(x)) &&
+  = && k \times L \\ \\
+  &\text{Quotient Property:} &&
+  \frac{\lim\limits_{x \to c} (f(x))}{\lim\limits_{x \to c} (g(x))} &&
+  = && L \div K \\ \\
+    &\text{Exponent Property:} && \lim_{x \to c} {(f(x))}^{\frac{r}{s}} &&
+  = && L^{\frac{r}{s}}
+\end{flalign*}
+
+
+\end{document}

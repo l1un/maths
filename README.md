@@ -36,8 +36,16 @@
 ```
 .
 ├── calculus
-│   └── 1.doc
-│       └── lambda.pdf
+│   ├── build
+│   ├── doc
+│   │   ├── lambda.pdf
+│   │   └── shofeyn.md
+│   ├── pdf
+│   │   └── limits-and-continuity
+│   │       └── limit-properties.pdf
+│   └── tex
+│       └── limits-and-continuity
+│           └── limit-properties.tex
 ├── CHANGELOG.md
 ├── .gitignore
 ├── README.md
@@ -45,7 +53,21 @@
 └── statistics
     ├── analyzing-the-difference-in-distributions.tex
     ├── build
-    │   └── analyzing-the-difference-in-distributions.pdf
+    │   ├── analyzing-the-difference-in-distributions.aux
+    │   ├── analyzing-the-difference-in-distributions.fdb_latexmk
+    │   ├── analyzing-the-difference-in-distributions.fls
+    │   ├── analyzing-the-difference-in-distributions.log
+    │   ├── analyzing-the-difference-in-distributions.pdf
+    │   ├── analyzing-the-difference-in-distributions.synctex.gz
+    │   └── tex
+    │       ├── confidence-intervals
+    │       ├── counting-permutations-combinations
+    │       ├── exploring-bivriate-numerical-data
+    │       ├── modeling-data-distributions
+    │       ├── probability
+    │       ├── random-variables
+    │       ├── significance-tests-hypothesis-testing
+    │       └── summarizing-quantitative-data
     ├── doc
     │   ├── chi-square-table.pdf
     │   ├── combined-distribution-table.pdf
@@ -127,8 +149,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-31 directories, 60 files
-last generated: Tue Aug 20 11:54:39 PDT 2019
+45 directories, 68 files
+last generated: Sun Aug 25 08:29:55 PDT 2019
 ```
 ###### packages
 ```
@@ -138,7 +160,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Tue Aug 20 11:54:39 PDT 2019
+auto-generated: Sun Aug 25 08:29:55 PDT 2019
 ```
 ###### notes
 

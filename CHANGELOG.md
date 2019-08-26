@@ -1,4 +1,9 @@
 ###### changelog
+`2019.08.26.1`
+  - add algebra 2 section, dirs and logarithm files
+  - clean-up
+
+
 `2019.08.25.1`
   - setup directories for calculus pdfs and tEx
   - add calculus `shofeyn.md` template start

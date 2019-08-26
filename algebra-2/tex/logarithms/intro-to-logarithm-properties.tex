@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}
+\usepackage[margin=6mm]{geometry}
+\usepackage{amssymb, microtype, mathtools, booktabs}
+\usepackage[table]{xcolor}
+% \usepackage[fleqn]{mathtools}
+
+\begin{document}
+
+\paragraph{Description} The properties of logarithms. The following properties apply for any values of $M, N$ and $b$ for which each logarithm is defined, which is $M,N > 0$ and $0 < b \ne 1$. Remember, in order for a logarithm to be defined, the argument of the logarithm must be positive and the base of the logarithm must be positive and not equal to 1.
+
+{ % group
+\begin{center}
+\textbf{Logarithm Rules} \vspace{3mm} \\
+\LARGE \def\arraystretch{2} % stretch row size
+\rowcolors{1}{gray!25}{white}
+\begin{tabular}{cccc}
+  Product Rule & $\log_{b}(MN)$ & = & $\log_{b}(M) + \log_{b}(N)$ \\
+  Quotient Rule & $\log_{b}(\frac{M}{N})$ & = & $\log_{b}(M) - \log_{b}(N)$ \\
+  Power Rule & $\log_{b}(M^{p})$ & = & $p\log_{b}(M)$ \\
+\end{tabular} \\
+\end{center}
+}
+
+\end{document}

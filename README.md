@@ -35,6 +35,16 @@
 ###### tree
 ```
 .
+├── algebra-2
+│   ├── build
+│   ├── doc
+│   │   └── shofeyn.md
+│   ├── pdf
+│   │   └── logarithms
+│   │       └── intro-to-logarithm-properties.pdf
+│   └── tex
+│       └── logarithms
+│           └── intro-to-logarithm-properties.tex
 ├── calculus
 │   ├── build
 │   ├── doc
@@ -53,21 +63,6 @@
 └── statistics
     ├── analyzing-the-difference-in-distributions.tex
     ├── build
-    │   ├── analyzing-the-difference-in-distributions.aux
-    │   ├── analyzing-the-difference-in-distributions.fdb_latexmk
-    │   ├── analyzing-the-difference-in-distributions.fls
-    │   ├── analyzing-the-difference-in-distributions.log
-    │   ├── analyzing-the-difference-in-distributions.pdf
-    │   ├── analyzing-the-difference-in-distributions.synctex.gz
-    │   └── tex
-    │       ├── confidence-intervals
-    │       ├── counting-permutations-combinations
-    │       ├── exploring-bivriate-numerical-data
-    │       ├── modeling-data-distributions
-    │       ├── probability
-    │       ├── random-variables
-    │       ├── significance-tests-hypothesis-testing
-    │       └── summarizing-quantitative-data
     ├── doc
     │   ├── chi-square-table.pdf
     │   ├── combined-distribution-table.pdf
@@ -149,8 +144,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-45 directories, 68 files
-last generated: Sun Aug 25 08:29:55 PDT 2019
+43 directories, 65 files
+last generated: Mon Aug 26 11:57:02 PDT 2019
 ```
 ###### packages
 ```
@@ -160,7 +155,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Sun Aug 25 08:29:55 PDT 2019
+auto-generated: Mon Aug 26 11:57:02 PDT 2019
 ```
 ###### notes
 

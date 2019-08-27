@@ -145,7 +145,7 @@
             └── variance-standard-deviation.tex
 
 43 directories, 65 files
-last generated: Mon Aug 26 11:57:02 PDT 2019
+last generated: Tue Aug 27 04:37:22 PDT 2019
 ```
 ###### packages
 ```
@@ -155,7 +155,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Mon Aug 26 11:57:02 PDT 2019
+auto-generated: Tue Aug 27 04:37:22 PDT 2019
 ```
 ###### notes
 

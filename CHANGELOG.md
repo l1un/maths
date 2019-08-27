@@ -1,4 +1,9 @@
 ###### changelog
+`2019.08.27.1`
+  - add the change of base rule to `intro-to-logarithm-properties`
+  - add entry to `algebra-2/shofeyn.md`
+
+
 `2019.08.26.1`
   - add algebra 2 section, dirs and logarithm files
   - clean-up

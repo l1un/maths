@@ -1,4 +1,8 @@
 ###### changelog
+`2019.09.03.1`
+  - add template files to continue
+
+
 `2019.08.27.1`
   - add the change of base rule to `intro-to-logarithm-properties`
   - add entry to `algebra-2/shofeyn.md`

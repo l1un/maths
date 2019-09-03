@@ -37,22 +37,40 @@
 .
 ├── algebra-2
 │   ├── build
+│   │   ├── template.aux
+│   │   ├── template.fdb_latexmk
+│   │   ├── template.fls
+│   │   ├── template.log
+│   │   ├── template.pdf
+│   │   ├── template.synctex.gz
+│   │   └── tex
+│   │       └── logarithms
 │   ├── doc
 │   │   └── shofeyn.md
 │   ├── pdf
 │   │   └── logarithms
 │   │       └── intro-to-logarithm-properties.pdf
+│   ├── template.tex
 │   └── tex
 │       └── logarithms
 │           └── intro-to-logarithm-properties.tex
 ├── calculus
 │   ├── build
+│   │   ├── template.aux
+│   │   ├── template.fdb_latexmk
+│   │   ├── template.fls
+│   │   ├── template.log
+│   │   ├── template.pdf
+│   │   ├── template.synctex.gz
+│   │   └── tex
+│   │       └── limits-and-continuity
 │   ├── doc
 │   │   ├── lambda.pdf
 │   │   └── shofeyn.md
 │   ├── pdf
 │   │   └── limits-and-continuity
 │   │       └── limit-properties.pdf
+│   ├── template.tex
 │   └── tex
 │       └── limits-and-continuity
 │           └── limit-properties.tex
@@ -144,8 +162,8 @@
             ├── intuition-variance-vs-standard-deviation.tex
             └── variance-standard-deviation.tex
 
-43 directories, 65 files
-last generated: Tue Aug 27 04:37:22 PDT 2019
+47 directories, 79 files
+last generated: Tue Sep  3 09:27:30 PDT 2019
 ```
 ###### packages
 ```
@@ -155,7 +173,7 @@ devDependencies
 dependencies
 
 
-auto-generated: Tue Aug 27 04:37:22 PDT 2019
+auto-generated: Tue Sep  3 09:27:30 PDT 2019
 ```
 ###### notes
 

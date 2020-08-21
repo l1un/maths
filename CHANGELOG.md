@@ -1,4 +1,9 @@
-###### changelog
+# changelog
+
+## 2020.08.20.1
+
+  - Minor changes to template to test Zathura update new system build.
+
 `2019.09.03.1`
   - add template files to continue
 
